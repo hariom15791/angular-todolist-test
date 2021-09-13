@@ -1,0 +1,30 @@
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+.btn {
+  cursor: pointer;
+}
+.full-width {
+  width: 80%;
+  margin-top: 20px;
+}
+.todoList-spacer {
+  flex: 1 1 auto;
+}
+.todoitem {
+  margin: 5px 0;
+  color: #fff;
+  text-overflow: ellipsis;
+}
+.done-true {
+  text-decoration: line-through #d50000;
+}
+.done-false {
+  text-decoration: none;
+}
+button.todoList-form-button {
+  float: right;
+  margin-top: 30px;
+  background: #3f51b5;
+  margin-left: 0px;
+  color: #fff;
+}
